@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #242526;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    position: relative padding 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing {
+    text-align: center;
+    color: #242526;
+}
+
+.landing h1 {
+    font-size: 160px;
+    font-weight: 600px;
+}
+
+.landing a {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.back-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.card img {
+    width: 250px;
+    height: 200px
+}
+
+.card:hover {
+    background-color: #3f3d56;
+    color: #fff;
+}
+
+/* Float four columns side by side */
+.card-column {
+    float: left;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+.card-column p {
+    font-size: 12px;
+    color: grey;
+}
+
+/* Remove extra left and right margins, due to padding */
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.travel-list1 {
+    background-size: cover;
+    padding: 30px;
+    text-align: left;
+}
+
+.travel-list2 {
+    background-size: cover;
+    padding: 30px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90px;
+    background-color: #18191a;
+}
+
+footer p {
+    margin: auto;
+    color: #ecf0f1;
+}
+
+footer a {
+    color: #ecf0f1;
+    font-size: 30px;
+    padding: 20px;
+}
+
+footer a :hover {
+    color: gray;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
